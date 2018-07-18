@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.2.1):
+    - CocoaLumberjack/Default (= 3.2.1)
+    - CocoaLumberjack/Extensions (= 3.2.1)
+  - CocoaLumberjack/Default (3.2.1)
+  - CocoaLumberjack/Extensions (3.2.1):
+    - CocoaLumberjack/Default
+  - Masonry (1.1.0)
+  - PLMediaStreamingKit (2.3.1):
+    - PLMediaStreamingKit/iphoneos (= 2.3.1)
+  - PLMediaStreamingKit/iphoneos (2.3.1)
+  - PLPlayerKit (3.3.1):
+    - PLPlayerKit/iphoneos (= 3.3.1)
+  - PLPlayerKit/iphoneos (3.3.1)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - CocoaLumberjack (~> 3.2.0)
+  - Masonry
+  - PLMediaStreamingKit
+  - PLPlayerKit
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - CocoaLumberjack
+    - Masonry
+    - PLMediaStreamingKit
+    - PLPlayerKit
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: 2800c03334042fe80589423c8d80e582dcaec482
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PLMediaStreamingKit: 0ce240ed28fe73b2132ce0810190728799700da7
+  PLPlayerKit: 63a9c6a7661f497591c84121e854e8e6ac003256
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+
+PODFILE CHECKSUM: 675519faef8c7a649b6eb7b801162deb4604e75d
+
+COCOAPODS: 1.5.0

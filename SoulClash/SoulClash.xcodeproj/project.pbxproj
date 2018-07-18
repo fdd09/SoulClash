@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4922805D50698B98E6B8239D /* libPods-SoulClash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8FEDE558AF4FA51FC16D81 /* libPods-SoulClash.a */; };
+		D178ADBD20F8F61A0030D086 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D178ADBC20F8F61A0030D086 /* AppDelegate.m */; };
+		D178ADC020F8F61A0030D086 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D178ADBF20F8F61A0030D086 /* ViewController.m */; };
+		D178ADC320F8F61A0030D086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D178ADC120F8F61A0030D086 /* Main.storyboard */; };
+		D178ADC520F8F61A0030D086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D178ADC420F8F61A0030D086 /* Assets.xcassets */; };
+		D178ADC820F8F61A0030D086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D178ADC620F8F61A0030D086 /* LaunchScreen.storyboard */; };
+		D178ADCB20F8F61A0030D086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D178ADCA20F8F61A0030D086 /* main.m */; };
+		D178ADD520F8F61B0030D086 /* SoulClashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D178ADD420F8F61B0030D086 /* SoulClashTests.m */; };
+		D178ADE020F8F61B0030D086 /* SoulClashUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D178ADDF20F8F61B0030D086 /* SoulClashUITests.m */; };
+		D1CFEEBD20FCC7B800242FCF /* SCPermissionRequestor.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFEEB920FCC7B800242FCF /* SCPermissionRequestor.m */; };
+		D1CFEEBE20FCC7B800242FCF /* SCStreamingSessionConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFEEBA20FCC7B800242FCF /* SCStreamingSessionConstructor.m */; };
+		D1CFEEC320FCC80E00242FCF /* SCPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFEEC220FCC80E00242FCF /* SCPushViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D178ADD120F8F61A0030D086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D178ADB020F8F61A0030D086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D178ADB720F8F61A0030D086;
+			remoteInfo = SoulClash;
+		};
+		D178ADDC20F8F61B0030D086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D178ADB020F8F61A0030D086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D178ADB720F8F61A0030D086;
+			remoteInfo = SoulClash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63F572D2C71EAE46F76286B7 /* Pods-SoulClash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulClash.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoulClash/Pods-SoulClash.release.xcconfig"; sourceTree = "<group>"; };
+		9A8FEDE558AF4FA51FC16D81 /* libPods-SoulClash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoulClash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D178ADB820F8F61A0030D086 /* SoulClash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoulClash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D178ADBB20F8F61A0030D086 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D178ADBC20F8F61A0030D086 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D178ADBE20F8F61A0030D086 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D178ADBF20F8F61A0030D086 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D178ADC220F8F61A0030D086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D178ADC420F8F61A0030D086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D178ADC720F8F61A0030D086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D178ADC920F8F61A0030D086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D178ADCA20F8F61A0030D086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D178ADD020F8F61A0030D086 /* SoulClashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulClashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D178ADD420F8F61B0030D086 /* SoulClashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoulClashTests.m; sourceTree = "<group>"; };
+		D178ADD620F8F61B0030D086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D178ADDB20F8F61B0030D086 /* SoulClashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulClashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D178ADDF20F8F61B0030D086 /* SoulClashUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoulClashUITests.m; sourceTree = "<group>"; };
+		D178ADE120F8F61B0030D086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CFEEB920FCC7B800242FCF /* SCPermissionRequestor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPermissionRequestor.m; sourceTree = "<group>"; };
+		D1CFEEBA20FCC7B800242FCF /* SCStreamingSessionConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCStreamingSessionConstructor.m; sourceTree = "<group>"; };
+		D1CFEEBB20FCC7B800242FCF /* SCPermissionRequestor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPermissionRequestor.h; sourceTree = "<group>"; };
+		D1CFEEBC20FCC7B800242FCF /* SCStreamingSessionConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCStreamingSessionConstructor.h; sourceTree = "<group>"; };
+		D1CFEEC120FCC80E00242FCF /* SCPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCPushViewController.h; sourceTree = "<group>"; };
+		D1CFEEC220FCC80E00242FCF /* SCPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPushViewController.m; sourceTree = "<group>"; };
+		D1CFEEC420FCCA7A00242FCF /* SCCommanHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCommanHeader.h; sourceTree = "<group>"; };
+		E5DD31E8F06E94C310470E7C /* Pods-SoulClash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulClash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoulClash/Pods-SoulClash.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D178ADB520F8F61A0030D086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4922805D50698B98E6B8239D /* libPods-SoulClash.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D178ADCD20F8F61A0030D086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D178ADD820F8F61B0030D086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BB3C89890A1FB95DC5D07BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A8FEDE558AF4FA51FC16D81 /* libPods-SoulClash.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CD913341B51C86F8D8847D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5DD31E8F06E94C310470E7C /* Pods-SoulClash.debug.xcconfig */,
+				63F572D2C71EAE46F76286B7 /* Pods-SoulClash.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D178ADAF20F8F61A0030D086 = {
+			isa = PBXGroup;
+			children = (
+				D178ADBA20F8F61A0030D086 /* SoulClash */,
+				D178ADD320F8F61B0030D086 /* SoulClashTests */,
+				D178ADDE20F8F61B0030D086 /* SoulClashUITests */,
+				D178ADB920F8F61A0030D086 /* Products */,
+				5CD913341B51C86F8D8847D5 /* Pods */,
+				5BB3C89890A1FB95DC5D07BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D178ADB920F8F61A0030D086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D178ADB820F8F61A0030D086 /* SoulClash.app */,
+				D178ADD020F8F61A0030D086 /* SoulClashTests.xctest */,
+				D178ADDB20F8F61B0030D086 /* SoulClashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D178ADBA20F8F61A0030D086 /* SoulClash */ = {
+			isa = PBXGroup;
+			children = (
+				D1CFEEB720FCC7B800242FCF /* PushModel */,
+				D178ADBB20F8F61A0030D086 /* AppDelegate.h */,
+				D178ADBC20F8F61A0030D086 /* AppDelegate.m */,
+				D178ADBE20F8F61A0030D086 /* ViewController.h */,
+				D178ADBF20F8F61A0030D086 /* ViewController.m */,
+				D178ADC120F8F61A0030D086 /* Main.storyboard */,
+				D178ADC420F8F61A0030D086 /* Assets.xcassets */,
+				D178ADC620F8F61A0030D086 /* LaunchScreen.storyboard */,
+				D178ADC920F8F61A0030D086 /* Info.plist */,
+				D178ADCA20F8F61A0030D086 /* main.m */,
+				D1CFEEC420FCCA7A00242FCF /* SCCommanHeader.h */,
+			);
+			path = SoulClash;
+			sourceTree = "<group>";
+		};
+		D178ADD320F8F61B0030D086 /* SoulClashTests */ = {
+			isa = PBXGroup;
+			children = (
+				D178ADD420F8F61B0030D086 /* SoulClashTests.m */,
+				D178ADD620F8F61B0030D086 /* Info.plist */,
+			);
+			path = SoulClashTests;
+			sourceTree = "<group>";
+		};
+		D178ADDE20F8F61B0030D086 /* SoulClashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D178ADDF20F8F61B0030D086 /* SoulClashUITests.m */,
+				D178ADE120F8F61B0030D086 /* Info.plist */,
+			);
+			path = SoulClashUITests;
+			sourceTree = "<group>";
+		};
+		D1CFEEB720FCC7B800242FCF /* PushModel */ = {
+			isa = PBXGroup;
+			children = (
+				D1CFEEC020FCC7FE00242FCF /* PushViewController */,
+				D1CFEEB820FCC7B800242FCF /* PushKit */,
+			);
+			path = PushModel;
+			sourceTree = SOURCE_ROOT;
+		};
+		D1CFEEB820FCC7B800242FCF /* PushKit */ = {
+			isa = PBXGroup;
+			children = (
+				D1CFEEBB20FCC7B800242FCF /* SCPermissionRequestor.h */,
+				D1CFEEB920FCC7B800242FCF /* SCPermissionRequestor.m */,
+				D1CFEEBC20FCC7B800242FCF /* SCStreamingSessionConstructor.h */,
+				D1CFEEBA20FCC7B800242FCF /* SCStreamingSessionConstructor.m */,
+			);
+			path = PushKit;
+			sourceTree = "<group>";
+		};
+		D1CFEEC020FCC7FE00242FCF /* PushViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1CFEEC120FCC80E00242FCF /* SCPushViewController.h */,
+				D1CFEEC220FCC80E00242FCF /* SCPushViewController.m */,
+			);
+			path = PushViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D178ADB720F8F61A0030D086 /* SoulClash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D178ADE420F8F61B0030D086 /* Build configuration list for PBXNativeTarget "SoulClash" */;
+			buildPhases = (
+				511DF621183C2CFDD1762266 /* [CP] Check Pods Manifest.lock */,
+				D178ADB420F8F61A0030D086 /* Sources */,
+				D178ADB520F8F61A0030D086 /* Frameworks */,
+				D178ADB620F8F61A0030D086 /* Resources */,
+				C626C69C0DA57A05D64CDDCF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoulClash;
+			productName = SoulClash;
+			productReference = D178ADB820F8F61A0030D086 /* SoulClash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D178ADCF20F8F61A0030D086 /* SoulClashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D178ADE720F8F61B0030D086 /* Build configuration list for PBXNativeTarget "SoulClashTests" */;
+			buildPhases = (
+				D178ADCC20F8F61A0030D086 /* Sources */,
+				D178ADCD20F8F61A0030D086 /* Frameworks */,
+				D178ADCE20F8F61A0030D086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D178ADD220F8F61A0030D086 /* PBXTargetDependency */,
+			);
+			name = SoulClashTests;
+			productName = SoulClashTests;
+			productReference = D178ADD020F8F61A0030D086 /* SoulClashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D178ADDA20F8F61B0030D086 /* SoulClashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D178ADEA20F8F61B0030D086 /* Build configuration list for PBXNativeTarget "SoulClashUITests" */;
+			buildPhases = (
+				D178ADD720F8F61B0030D086 /* Sources */,
+				D178ADD820F8F61B0030D086 /* Frameworks */,
+				D178ADD920F8F61B0030D086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D178ADDD20F8F61B0030D086 /* PBXTargetDependency */,
+			);
+			name = SoulClashUITests;
+			productName = SoulClashUITests;
+			productReference = D178ADDB20F8F61B0030D086 /* SoulClashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D178ADB020F8F61A0030D086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "冯东旺";
+				TargetAttributes = {
+					D178ADB720F8F61A0030D086 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D178ADCF20F8F61A0030D086 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D178ADB720F8F61A0030D086;
+					};
+					D178ADDA20F8F61B0030D086 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D178ADB720F8F61A0030D086;
+					};
+				};
+			};
+			buildConfigurationList = D178ADB320F8F61A0030D086 /* Build configuration list for PBXProject "SoulClash" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D178ADAF20F8F61A0030D086;
+			productRefGroup = D178ADB920F8F61A0030D086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D178ADB720F8F61A0030D086 /* SoulClash */,
+				D178ADCF20F8F61A0030D086 /* SoulClashTests */,
+				D178ADDA20F8F61B0030D086 /* SoulClashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D178ADB620F8F61A0030D086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D178ADC820F8F61A0030D086 /* LaunchScreen.storyboard in Resources */,
+				D178ADC520F8F61A0030D086 /* Assets.xcassets in Resources */,
+				D178ADC320F8F61A0030D086 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D178ADCE20F8F61A0030D086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D178ADD920F8F61B0030D086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		511DF621183C2CFDD1762266 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoulClash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C626C69C0DA57A05D64CDDCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SoulClash/Pods-SoulClash-frameworks.sh",
+				"${PODS_ROOT}/PLMediaStreamingKit/Pod/Library/PLMediaStreamingKit.framework",
+				"${PODS_ROOT}/PLMediaStreamingKit/Pod/Library/HappyDNS.framework",
+				"${PODS_ROOT}/PLPlayerKit/Pod/Library/PLPlayerKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLMediaStreamingKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HappyDNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLPlayerKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoulClash/Pods-SoulClash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D178ADB420F8F61A0030D086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1CFEEC320FCC80E00242FCF /* SCPushViewController.m in Sources */,
+				D178ADC020F8F61A0030D086 /* ViewController.m in Sources */,
+				D1CFEEBE20FCC7B800242FCF /* SCStreamingSessionConstructor.m in Sources */,
+				D178ADCB20F8F61A0030D086 /* main.m in Sources */,
+				D178ADBD20F8F61A0030D086 /* AppDelegate.m in Sources */,
+				D1CFEEBD20FCC7B800242FCF /* SCPermissionRequestor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D178ADCC20F8F61A0030D086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D178ADD520F8F61B0030D086 /* SoulClashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D178ADD720F8F61B0030D086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D178ADE020F8F61B0030D086 /* SoulClashUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D178ADD220F8F61A0030D086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D178ADB720F8F61A0030D086 /* SoulClash */;
+			targetProxy = D178ADD120F8F61A0030D086 /* PBXContainerItemProxy */;
+		};
+		D178ADDD20F8F61B0030D086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D178ADB720F8F61A0030D086 /* SoulClash */;
+			targetProxy = D178ADDC20F8F61B0030D086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D178ADC120F8F61A0030D086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D178ADC220F8F61A0030D086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D178ADC620F8F61A0030D086 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D178ADC720F8F61A0030D086 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D178ADE220F8F61B0030D086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D178ADE320F8F61B0030D086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D178ADE520F8F61B0030D086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DD31E8F06E94C310470E7C /* Pods-SoulClash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPL6G7YPD2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SoulClash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pingan.SoulClash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D178ADE620F8F61B0030D086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F572D2C71EAE46F76286B7 /* Pods-SoulClash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPL6G7YPD2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SoulClash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pingan.SoulClash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D178ADE820F8F61B0030D086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoulClashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pingan.SoulClashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoulClash.app/SoulClash";
+			};
+			name = Debug;
+		};
+		D178ADE920F8F61B0030D086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoulClashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pingan.SoulClashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoulClash.app/SoulClash";
+			};
+			name = Release;
+		};
+		D178ADEB20F8F61B0030D086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoulClashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pingan.SoulClashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoulClash;
+			};
+			name = Debug;
+		};
+		D178ADEC20F8F61B0030D086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoulClashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pingan.SoulClashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoulClash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D178ADB320F8F61A0030D086 /* Build configuration list for PBXProject "SoulClash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D178ADE220F8F61B0030D086 /* Debug */,
+				D178ADE320F8F61B0030D086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D178ADE420F8F61B0030D086 /* Build configuration list for PBXNativeTarget "SoulClash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D178ADE520F8F61B0030D086 /* Debug */,
+				D178ADE620F8F61B0030D086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D178ADE720F8F61B0030D086 /* Build configuration list for PBXNativeTarget "SoulClashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D178ADE820F8F61B0030D086 /* Debug */,
+				D178ADE920F8F61B0030D086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D178ADEA20F8F61B0030D086 /* Build configuration list for PBXNativeTarget "SoulClashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D178ADEB20F8F61B0030D086 /* Debug */,
+				D178ADEC20F8F61B0030D086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D178ADB020F8F61A0030D086 /* Project object */;
+}
