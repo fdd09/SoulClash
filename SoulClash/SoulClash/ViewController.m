@@ -22,6 +22,8 @@
     [btn addTarget:self action:@selector(ddd) forControlEvents:(UIControlEventTouchUpInside)];
     btn.frame = CGRectMake(50, 100, 50, 50);
     [self.view addSubview:btn];
+    
+    //b的提交N内容
 }
 
 
