@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4922805D50698B98E6B8239D /* libPods-SoulClash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8FEDE558AF4FA51FC16D81 /* libPods-SoulClash.a */; };
+		6871AA1924D16B1E006891C5 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871AA1824D16B1E006891C5 /* AViewController.m */; };
 		D178ADBD20F8F61A0030D086 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D178ADBC20F8F61A0030D086 /* AppDelegate.m */; };
 		D178ADC020F8F61A0030D086 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D178ADBF20F8F61A0030D086 /* ViewController.m */; };
 		D178ADC320F8F61A0030D086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D178ADC120F8F61A0030D086 /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		63F572D2C71EAE46F76286B7 /* Pods-SoulClash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulClash.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoulClash/Pods-SoulClash.release.xcconfig"; sourceTree = "<group>"; };
+		6871AA1724D16B1E006891C5 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		6871AA1824D16B1E006891C5 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		9A8FEDE558AF4FA51FC16D81 /* libPods-SoulClash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoulClash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D178ADB820F8F61A0030D086 /* SoulClash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoulClash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D178ADBB20F8F61A0030D086 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				D178ADBC20F8F61A0030D086 /* AppDelegate.m */,
 				D178ADBE20F8F61A0030D086 /* ViewController.h */,
 				D178ADBF20F8F61A0030D086 /* ViewController.m */,
+				6871AA1724D16B1E006891C5 /* AViewController.h */,
+				6871AA1824D16B1E006891C5 /* AViewController.m */,
 				D178ADC120F8F61A0030D086 /* Main.storyboard */,
 				D178ADC420F8F61A0030D086 /* Assets.xcassets */,
 				D178ADC620F8F61A0030D086 /* LaunchScreen.storyboard */,
@@ -376,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1CFEEC320FCC80E00242FCF /* SCPushViewController.m in Sources */,
+				6871AA1924D16B1E006891C5 /* AViewController.m in Sources */,
 				D178ADC020F8F61A0030D086 /* ViewController.m in Sources */,
 				D1CFEEBE20FCC7B800242FCF /* SCStreamingSessionConstructor.m in Sources */,
 				D178ADCB20F8F61A0030D086 /* main.m in Sources */,
