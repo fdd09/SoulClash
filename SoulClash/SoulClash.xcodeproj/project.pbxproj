@@ -563,7 +563,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TPL6G7YPD2;
+				DEVELOPMENT_TEAM = 99843D2S6X;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SoulClash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -19,9 +19,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [PLStreamingEnv initEnv];
-    [PLStreamingEnv setLogLevel:PLStreamLogLevelDebug];
-    [PLStreamingEnv enableFileLogging];
+//    [PLStreamingEnv initEnv];
+//    [PLStreamingEnv setLogLevel:PLStreamLogLevelDebug];
+//    [PLStreamingEnv enableFileLogging];
+    
+    for (int i = 0; i <= 1000; i++) {
+        NSLog(@"%d", i);
+    }
     return YES;
 }
 
