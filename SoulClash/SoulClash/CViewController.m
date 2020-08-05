@@ -17,17 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //c1
-    //c2
-    //c3
-    //c4
-    //c6
-    //c7
-    //8
-    //9
-    //10
-    //11
-    //12
+    //1
+
 }
 
 /*
